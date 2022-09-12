@@ -1,14 +1,12 @@
-package ex01_xxxxx;
+package ex01_arrays;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-//note: I add 1 dummy class and 1 dummy test-class because it is impossible to commit empty directories
+class ArrayOfIntsSumTest {
 
-class ExampleTest {
-
-    private final Example arrayOfInts = new Example();
+    private final ArrayOfInts arrayOfInts = new ArrayOfInts();
 
     @Test
     void happyflow() {
