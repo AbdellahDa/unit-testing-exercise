@@ -3,8 +3,8 @@ Requirements:
 Schrijf een class Product. 
 Je maakt een object van de class Product met 3 parameters: 
 * name (String) 
-* size (integer - optioneel)
-* percentage (double - optioneel)
+* size (Integer - optioneel = mogelijk null)
+* percentage (Double - optioneel = mogelijk null)
 
 In de class Product maak je een functie productDescription. 
 Deze geeft een beschrijving van de details van het product (size en percentage) als die gegeven zijn. 
