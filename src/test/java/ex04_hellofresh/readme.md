@@ -89,5 +89,5 @@ cake voor 4 personen
 Maak een functie **addText** waarmee je de tekst van het recept kan toevoegen. 
 Maak een functie **printText** waarmee je de tekst afdrukt. 
 Hoe kan je het aanpakken om ook in de tekst de juiste aantallen/enkelvoud/meervoud te printen? 
-Hoe kan formattering in de tekst aanbrengen? 
+Hoe kan je formattering in de tekst aanbrengen? 
 
