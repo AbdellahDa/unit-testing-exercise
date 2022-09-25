@@ -70,12 +70,20 @@ Maak een object van class Recipe aan met:
 * amountForRecipe (integer) - optioneel - is default 1 - dit is het aantal personen waarvoor het standaard-recept opgesteld is
 
 Een Recipe moet opgebouwd worden door Ingredients toe te voegen.
-Maak hiervoor een functie **addIngredient** met parameter een object van de class Ingredient
+Maak hiervoor een functie **addIngredient** met parameter een object van de class Ingredient.
 
 Als een Recipe opgebouwd is kan je de ingredientenlijst afdrukken. 
 Maar hiervoor een functie **print** met parameter **nrOfPersons**: het aantal personen waarvoor we het recept willen afdrukken. 
-De functie druk eerst de dishName af met het aantal personen - bvb "Appeltaart voor 10 personen". 
+De functie drukt eerst de dishName af met het aantal personen - bvb "Appeltaart voor 10 personen". 
 Dan volgt de ingredientenlijst. 
+
+Bijvoorbeeld.
+<pre>
+cake voor 4 personen  
+  1 kopje bloem  
+  2 eetlepels suiker  
+  citroensap naar smaak
+</pre>
 
 ## Uitbreiding 
 Maak een functie **addText** waarmee je de tekst van het recept kan toevoegen. 
