@@ -45,16 +45,22 @@ Dit is het aantal porties waarvoor we de ingredientenlijst willen afdrukken.
 
 Bvb: **pasta-pesto** 
 Het standaard-recept is voor 1 persoon. 
-Een van de Ingredients in dit recept is: **10 blaadjes basilicum** 
+Een van de Ingredients in dit recept is: **10 blaadjes basilicum**. 
 Als je het recept afdrukt voor 1 persoon: Ingredient.print(1) --> dan print je "10 blaadjes basilicum"     
 Als je het recept afdrukt voor 4 personen: Ingredient.print(4) --> dan print je "40 blaadjes basilicum"
 
 Bvb: **courgette in de oven**
 Het standaard-recept is voor 2 persoon.
-Een van de Ingredients in dit recept is: **1 courgette**
+Een van de Ingredients in dit recept is: **1 courgette**.
 Als je het recept afdrukt voor 1 persoon: Ingredient.print(1) --> dan print je "1/2 courgette"     
 Als je het recept afdrukt voor 2 personen: Ingredient.print(2) --> dan print je "1 courgette"     
 Als je het recept afdrukt voor 4 personen: Ingredient.print(4) --> dan print je "2 courgettes"
+
+Bvb: **peper en zout naar smaak**
+Het standaard-recept is voor 2 persoon.
+Een van de Ingredients in dit recept is: **peper en zout naar smaak**.
+Als je het recept afdrukt voor 1 persoon: Ingredient.print(1) --> dan print je "peper en zout naar smaak"     
+Als je het recept afdrukt voor 4 personen: Ingredient.print(4) --> dan print je "peper en zout naar smaak"
 
 
 ## Recipe class
