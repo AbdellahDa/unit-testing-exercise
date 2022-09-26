@@ -45,16 +45,22 @@ Dit is het aantal porties waarvoor we de ingredientenlijst willen afdrukken.
 
 Bvb: **pasta-pesto** 
 Het standaard-recept is voor 1 persoon. 
-Een van de Ingredients in dit recept is: **10 blaadjes basilicum** 
+Een van de Ingredients in dit recept is: **10 blaadjes basilicum**. 
 Als je het recept afdrukt voor 1 persoon: Ingredient.print(1) --> dan print je "10 blaadjes basilicum"     
 Als je het recept afdrukt voor 4 personen: Ingredient.print(4) --> dan print je "40 blaadjes basilicum"
 
 Bvb: **courgette in de oven**
 Het standaard-recept is voor 2 persoon.
-Een van de Ingredients in dit recept is: **1 courgette**
+Een van de Ingredients in dit recept is: **1 courgette**.
 Als je het recept afdrukt voor 1 persoon: Ingredient.print(1) --> dan print je "1/2 courgette"     
 Als je het recept afdrukt voor 2 personen: Ingredient.print(2) --> dan print je "1 courgette"     
 Als je het recept afdrukt voor 4 personen: Ingredient.print(4) --> dan print je "2 courgettes"
+
+Bvb: **peper en zout naar smaak**
+Het standaard-recept is voor 2 persoon.
+Een van de Ingredients in dit recept is: **peper en zout naar smaak**.
+Als je het recept afdrukt voor 1 persoon: Ingredient.print(1) --> dan print je "peper en zout naar smaak"     
+Als je het recept afdrukt voor 4 personen: Ingredient.print(4) --> dan print je "peper en zout naar smaak"
 
 
 ## Recipe class
@@ -64,16 +70,24 @@ Maak een object van class Recipe aan met:
 * amountForRecipe (integer) - optioneel - is default 1 - dit is het aantal personen waarvoor het standaard-recept opgesteld is
 
 Een Recipe moet opgebouwd worden door Ingredients toe te voegen.
-Maak hiervoor een functie **addIngredient** met parameter een object van de class Ingredient
+Maak hiervoor een functie **addIngredient** met parameter een object van de class Ingredient.
 
 Als een Recipe opgebouwd is kan je de ingredientenlijst afdrukken. 
 Maar hiervoor een functie **print** met parameter **nrOfPersons**: het aantal personen waarvoor we het recept willen afdrukken. 
-De functie druk eerst de dishName af met het aantal personen - bvb "Appeltaart voor 10 personen". 
+De functie drukt eerst de dishName af met het aantal personen - bvb "Appeltaart voor 10 personen". 
 Dan volgt de ingredientenlijst. 
+
+Bijvoorbeeld.
+<pre>
+cake voor 4 personen  
+  1 kopje bloem  
+  2 eetlepels suiker  
+  citroensap naar smaak
+</pre>
 
 ## Uitbreiding 
 Maak een functie **addText** waarmee je de tekst van het recept kan toevoegen. 
 Maak een functie **printText** waarmee je de tekst afdrukt. 
 Hoe kan je het aanpakken om ook in de tekst de juiste aantallen/enkelvoud/meervoud te printen? 
-Hoe kan formattering in de tekst aanbrengen? 
+Hoe kan je formattering in de tekst aanbrengen? 
 
